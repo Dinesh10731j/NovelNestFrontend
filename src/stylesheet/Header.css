@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 12px 5px;
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li{
+    padding: 10px 12px;
+    list-style:none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+header nav ul li:hover{
+    background-color: #b2bec3;
+    border-radius: 34px;
+    text-decoration: none;
+
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+/* Baseline styles applied to all screens */
+body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  /* Extra small devices (phones) */
+  @media only screen and (max-width: 480px) {
+    header nav ul li{
+        padding: 10px 5px;
+        list-style:none;
+        font-size: 0.70em;
+        font-weight: bold;
+    }
+   
+  }
+  
+  /* Small devices (tablets and large phones) */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    header nav ul li{
+        padding: 10px 12px;
+        list-style:none;
+        font-size: 0.98em;
+        font-weight: bold;
+    }
+   
+  }
+  
+  
